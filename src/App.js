@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import AppFive from "./components/AppFive";
+import AppFour from "./components/AppFour";
+import AppSixApp from "./components/AppSixApp";
+import ListItem from "./components/ListItem";
+import AppThree from "./components/AppThree";
+import AppTwo from "./components/AppTwo";
+import CssPractice from "./components/CssPractice";
+import SetOne from "./components/SetOne";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <SetOne /> */}
+      {/* <AppTwo /> */}
+      {/* <AppThree /> */}
+      {/* <AppFour /> */}
+      {/* <AppFive
+        message="test"
+        url="https://imageio.forbes.com/specials-images/imageserve/5faad4255239c9448d6c7bcd/Best-Animal-Photos-Contest--Close-Up-Of-baby-monkey/960x0.jpg?fit=bounds&format=jpg&width=960"
+      /> */}
+      {/* <AppSixApp /> */}
+      {/* <CssPractice /> */}
     </div>
   );
 }
 
 export default App;
+//started at 9:00
